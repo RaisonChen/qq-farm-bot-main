@@ -17,13 +17,15 @@ const props = withDefaults(defineProps<{
   systemConfigSaving: boolean
   captureConfigSaving: boolean
   captureConfigTesting: boolean
-  qqFrameworkSyncConfigSaving: boolean
-  qqFrameworkSyncSyncing: boolean
+  qqFrameworkSyncConfigSaving?: boolean
+  qqFrameworkSyncSyncing?: boolean
   showHeading?: boolean
   showSave?: boolean
 }>(), {
   showHeading: true,
   showSave: true,
+  qqFrameworkSyncConfigSaving: false,
+  qqFrameworkSyncSyncing: false,
 })
 
 const emit = defineEmits<{

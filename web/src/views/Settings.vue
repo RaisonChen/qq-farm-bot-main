@@ -117,7 +117,6 @@ const {
   osOptions,
   loadCaptureConfig,
   handleTestCaptureConfig,
-  handleSaveCaptureConfig,
   loadQqFrameworkSyncConfig,
   handleSaveQqFrameworkSyncConfig,
   handleSyncAllQqFramework,
