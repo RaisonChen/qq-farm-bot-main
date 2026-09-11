@@ -58,6 +58,7 @@
 ```bash
 git clone https://github.com/RaisonChen/qq-farm-bot-main.git
 cd qq-farm-bot-main
+git pull
 
 corepack enable
 pnpm install
